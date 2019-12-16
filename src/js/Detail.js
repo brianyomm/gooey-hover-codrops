@@ -9,6 +9,7 @@ export default class DetailView {
             el: document.querySelector('.detail-view'),
             closeBtn: document.querySelector('.close-detail'),
             title: document.querySelector('.detail-view__title'),
+            body: document.querySelector('.detail-view__content'),
         }
 
         this.bindEvent()

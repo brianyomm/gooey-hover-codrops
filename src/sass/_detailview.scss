@@ -46,6 +46,10 @@
 }
 
 .detail-view__content {
+    overflow-y: scroll;
+}
+
+.detail-view__content {
     p {
         width: 100%;
         max-width: 35vw;
@@ -80,10 +84,7 @@
     position: absolute;
     top: 50%;
     left: 50%;
-
     transform: translate(-50%, -50%);
-
-
 }
 
 .close-detail__round {
